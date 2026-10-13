@@ -1,0 +1,7 @@
+# Packages needed to *serve* the model (installed in the Docker image).
+# Versions are pinned: the model was pickled with scikit-learn 1.9.1 and must be
+# loaded with the same version. Training / notebook packages live in the Pipfile.
+scikit-learn==1.9.1
+numpy==2.5.4
+flask==3.1.3
+gunicorn==26.2.0

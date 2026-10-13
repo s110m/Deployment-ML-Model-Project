@@ -1,0 +1,11 @@
+# Files NOT uploaded to Elastic Beanstalk by `eb create` / `eb deploy`.
+# When this file exists, EB uses it instead of .gitignore and deploys the
+# working directory (not only the last git commit).
+.git
+.elasticbeanstalk/
+.backup_original/
+.ipynb_checkpoints/
+__pycache__/
+*.ipynb
+data/
+images/
